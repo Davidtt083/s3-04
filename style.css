@@ -40,9 +40,13 @@ img {
 .pant {
   margin-top: 11px;
   margin-left: -41px;
-  width: 100%;
+  width: 80%;
   height: auto;
   z-index: 9;
+}
+
+#pant-01{
+  width: 50%;
 }
 
 
