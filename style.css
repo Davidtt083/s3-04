@@ -4,7 +4,7 @@ body {
 
 .very-specific-design {
   width: 1920px;
-  height: 600px;
+  height: 971px;
   padding: 50px;
   text-align: center;
   background:rgba(0, 0, 0, 0);
@@ -155,7 +155,8 @@ img {
 
 .popup .content {
  height: auto;
-  overflow: auto;
+  overflow: 700px;
+  width: 100%;
 }
 
 .pregunta {
@@ -182,4 +183,10 @@ form {
   outline: none !important;
   border-color: #3B69FA;
   box-shadow: 0 0 10px #3B69FA;
+}
+iframe{
+  position: absolute;
+  margin-top: 353px;
+  margin-left: -1000px;
+  z-index: -9;
 }
